@@ -1,0 +1,46 @@
+* {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    padding-bottom: 50px;
+}
+h1, h2, h3 {
+    color: rgb(54, 160, 196);
+}
+table {
+    width: 100%;
+    border: 1px solid gray;
+    border-spacing: 0px;
+}
+th {
+    font-weight: bold;
+    text-align: left;
+    border-bottom: 1px solid gray;
+}
+tr:nth-child(2n) {
+    background-color: rgb(204, 221, 230);
+}
+th+th , td+td{
+    border-left: 1px solid gray;
+}
+th, td {
+    padding: 5px;
+}
+iframe {
+    border: 1px solid gray;
+}
+form {
+    padding: 15px;
+    border: 1px solid gray;
+}
+input[type="text"], textarea, input[type="submit"] {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+    min-height: 25px;
+}
+input[type="submit"] {
+    font-size: 120%;
+}
